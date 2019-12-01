@@ -4,10 +4,10 @@ The web component consumes a JSON object and creates an interactive UI from its 
 
 # API
 
-| Property | Description                                                                                                       | Default    |
-| -------- | ----------------------------------------------------------------------------------------------------------------- | ---------- |
-| value    | Value to present. Can be `JSON` but also `Number`, `String`, `Array`, `Function`, `Symbol`, `Boolean`, `Date`     | `{}`       |
-| open     | Possible values: `"closed"`: Object is closed. `"full"`: Object is fully open. `"top-only"`: Only top level open. | `"closed"` |
+| Property | Description                                                                                                                                      | Default    |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| value    | Value to present. Can be `JSON` but also `Number`, `String`, `Array`, `Function`, `Symbol`, `Boolean`, `Date`                                    | `{}`       |
+| open     | Possible values: <br/> <ul><li>`"closed"`: Object is closed</li><li>`"full"`: Object is fully open</li><li>`"top-only"` Only top level open</li> | `"closed"` |
 
 # References
 
