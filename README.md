@@ -1,5 +1,15 @@
 [![edit-in-webcomponents.dev](https://webcomponents.dev/assets/ext/edit_in_wcd.svg)](https://webcomponents.dev/edit/VXr2i1M8U1s4He9bOdII)
-# `<json-element>`
+
+# wc-json
+
+The web component consumes a JSON object and creates an interactive UI from its contents
+
+# API
+
+| Property | Description                                                                                                       | Default    |
+| -------- | ----------------------------------------------------------------------------------------------------------------- | ---------- |
+| value    | Value to present. Can be `JSON` but also `Number`, `String`, `Array`, `Function`, `Symbol`, `Boolean`, `Date`     | `{}`       |
+| open     | Possible values: `"closed"`: Object is closed. `"full"`: Object is fully open. `"top-only"`: Only top level open. | `"closed"` |
 
 # Credits
 
