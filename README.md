@@ -1,5 +1,3 @@
-[![edit-in-webcomponents.dev](https://webcomponents.dev/assets/ext/edit_in_wcd.svg)](https://webcomponents.dev/edit/VXr2i1M8U1s4He9bOdII)
-
 # wc-json
 
 The web component consumes a JSON object and creates an interactive UI from its contents
@@ -10,6 +8,10 @@ The web component consumes a JSON object and creates an interactive UI from its 
 | -------- | ----------------------------------------------------------------------------------------------------------------- | ---------- |
 | value    | Value to present. Can be `JSON` but also `Number`, `String`, `Array`, `Function`, `Symbol`, `Boolean`, `Date`     | `{}`       |
 | open     | Possible values: `"closed"`: Object is closed. `"full"`: Object is fully open. `"top-only"`: Only top level open. | `"closed"` |
+
+# References
+
+[![edit-in-webcomponents.dev](https://webcomponents.dev/assets/ext/edit_in_wcd.svg)](https://webcomponents.dev/edit/VXr2i1M8U1s4He9bOdII)
 
 # Credits
 
