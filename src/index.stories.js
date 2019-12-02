@@ -5,7 +5,7 @@ const value = {
   bool: true,
   date: new Date(),
   object: {
-    foo: "bar"
+    foo: "line 1\nline 2\nline 3"
   },
   symbol: Symbol("foo"),
   nested: [

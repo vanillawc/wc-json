@@ -104,7 +104,7 @@ export default class JSONElement extends HTMLElement {
   }
 
   renderSpanValue(value) {
-    return value ? `<span class="value">${value}</span>` : "";
+    return value ? `<pre class="value">${value}</pre>` : "";
   }
 
   renderSpanLessImportant(value) {
@@ -196,10 +196,14 @@ export default class JSONElement extends HTMLElement {
         font-family: monospace;
       }
 
+      pre {
+        display: inline;
+      }
+
       details > summary:focus {
         outline: none;
       }
-
+      
       details > div {
         padding-left: 15px;
       }
