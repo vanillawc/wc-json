@@ -16,20 +16,19 @@ const value = {
 };
 
 export const full_open = () => html`
-  <custom-element .value=${value} .open=${"full"}> </custom-element>
+  <json-element .value=${value} .open=${"full"}> </json-element>
 `;
 
 export const top_only = () => html`
-  <custom-element .value=${value} .open=${"top-only"}> </custom-element>
+  <json-element .value=${value} .open=${"top-only"}> </json-element>
 `;
 
 export const string_only = () => html`
-  <custom-element .value=${"just a string"} .open=${"top-only"}>
-  </custom-element>
+  <json-element .value=${"just a string"} .open=${"top-only"}> </json-element>
 `;
 
 export const number_only = () => html`
-  <custom-element .value=${42} .open=${"top-only"}> </custom-element>
+  <json-element .value=${42} .open=${"top-only"}> </json-element>
 `;
 
 function addvalue() {
@@ -39,6 +38,6 @@ function addvalue() {
 
 export const test = () =>
   html`
-    <custom-element id="ce"></custom-element
+    <json-element id="ce"></json-element
     ><button @click="${addvalue}">click</button>
   `;

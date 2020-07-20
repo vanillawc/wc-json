@@ -227,3 +227,5 @@ export default class JSONElement extends HTMLElement {
     `;
   }
 }
+
+customElements.define("json-element", JSONElement);
