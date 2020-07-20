@@ -20,6 +20,4 @@ Inspired by [svelte-json-tree](https://github.com/tanhauhau/svelte-json-tree)
 
 Challenged by [@passle\_](https://twitter.com/passle_) "Can you do it with 0 dependencies?!" 💪
 
-> Created with [webcomponents.dev](https://webcomponents.dev)
-
 > Created with [WebComponents.dev](https://webcomponents.dev)
